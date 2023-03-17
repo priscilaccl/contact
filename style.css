@@ -1,0 +1,46 @@
+#myHeader {
+	/*color:red;*/
+	/*color:#ff0000;*/
+	color:rgb(0,110,122);
+	text-align: center;
+	/*background-color:#ff0333;
+	height:200px;
+	background-image:url("https://media.istockphoto.com/id/1417882544/photo/large-group-of-cats-and-dogs-looking-at-the-camera-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=Q-OSb3I9cuoCZT5rm539lIeu23zU3FdFyB35WhL0Kes=");
+	background-position:center;
+	background-repeat: non-repeat;*/
+	background-size:cover;
+	background:#eeee url("https://media.istockphoto.com/id/1417882544/photo/large-group-of-cats-and-dogs-looking-at-the-camera-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=Q-OSb3I9cuoCZT5rm539lIeu23zU3FdFyB35WhL0Kes=") no-repeat center;
+	height:200px;
+}
+
+h1 {
+	background-color:black;
+}
+
+th, td {
+	padding:10px;
+	min-width:100px;
+}
+
+.myClass {
+	color:red;
+}
+
+.myBox {
+padding: 5px 10px 15px 20px;
+/*border:  purple 10px solid;*/
+margin: 20px;
+background-color:black;
+color:aquamarine;
+/*margin-top: 40px;
+margin-left: 1px;
+margin-bottom: 10px;
+ margin-right:50px;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	
+	border-width: 1px;
+	border-style: solid;
+	border-color:aquamarine;
+	*/
+}
