@@ -1,38 +1,207 @@
-#myHeader {
-	/*color:red;*/
-	/*color:#ff0000;*/
-	color:rgb(0,110,122);
-	text-align: center;
-	/*background-color:#ff0333;
-	height:200px;
-	background-image:url("https://media.istockphoto.com/id/1417882544/photo/large-group-of-cats-and-dogs-looking-at-the-camera-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=Q-OSb3I9cuoCZT5rm539lIeu23zU3FdFyB35WhL0Kes=");
-	background-position:center;
-	background-repeat: non-repeat;*/
-	background-size:cover;
-	background:#eeee url("https://media.istockphoto.com/id/1417882544/photo/large-group-of-cats-and-dogs-looking-at-the-camera-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=Q-OSb3I9cuoCZT5rm539lIeu23zU3FdFyB35WhL0Kes=") no-repeat center;
-	height:200px;
+/*article .myBox p:first-child {
+	border: 1px solid green;
+}*/
+
+@font-face {
+	font-family: "Delicious Handrawn";
+	src: url("assets/DeliciousHandrawn-Regular.ttf") format("truetype");
+  }
+body {
+	font-size: 14px;
+	line-height: 16px;
+	color: navy;
+	font-family: calibri;
 }
 
 h1 {
-	background-color:black;
+	Font-size: 20px;
+	font-weight: 800;
+	line-height: 40px;
+	font-family:'Delicious Handrawn';
+	color: white;
 }
 
-th, td {
-	padding:10px;
-	min-width:100px;
+
+
+/*#contactMe {
+	position: static;
+	left: 50px;
+	top: 40px;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}*/
+
+#myNav {
+    background-color: chocolate;
+    height: 60px;
+    margin: 10px 0;
+}
+
+#myNav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+#myNav ul li {
+    float: left;
+}
+
+#myNav ul li a {
+    margin-right: 5px;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    background-color: gold;
+    color: brown;
+    width: 100px;
+    position: relative;
+    text-decoration: none;
+}
+
+#myNav ul li a:hover {
+    background-color: green;
+    color: #fff;
+}
+
+
+#myContainer {
+	background: #dad;
+	min-height: 100%;
+
+}
+
+#sMenu {
+	float: left;
+	width: 29%;
+	background-color: orange;
+	padding: 2%;
+	height: auto;
+
+
+}
+
+#sMenu h1 {
+	margin:0;
+
+}
+
+/*#myNav ul li a:hover,
+.myBox:hover {
+
+	background-color: purple;
+	color: #fff;
+	height: 30px;
+	margin-left: 10px 0;
+
+}*/
+
+#myHeader {
+	/*color:red;*/
+	/*color:#ff0000;*/
+	color: black;
+	text-align: center;
+	/*background-color:#ff0333;
+	height:200px;
+	background-imag:url("https://media.istockphoto.com/id/1417882544/photo/large-group-of-cats-and-dogs-looking-at-the-camera-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=Q-OSb3I9cuoCZT5rm539lIeu23zU3FdFyB35WhL0Kes=");
+	background-position:center;
+	background-repeat: non-repeat;*/
+	background-size: cover;
+	background: orange url("https://st2.depositphotos.com/4366637/9455/i/450/depositphotos_94554672-stock-photo-carrot-cake-with-chocolate-and.jpg") no-repeat center;
+	height: 200px;
+}
+
+
+#myContent {
+	float: none;
+	width: 100%;
+	padding: 0;
+	background-color: #ffa;
+}
+
+
+footer {
+	clear: both;
+}
+
+table {
+	width: 100%;
+}
+
+
+
+
+
+/*span::before {
+	content: "My SPAN is here";
+	background-color:gray;
+}
+
+
+h1 {
+	background-color:black;
+}*/
+
+th,
+td {
+	padding: 0px;
+	min-width: 100px;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #000000;
+	color: greenyellow;
+
+}
+
+@media screen and (max-width:700px) {
+	#wrapper {
+		background-color: blue;
+	}
+
 }
 
 .myClass {
-	color:red;
+	background-color: white;
+
 }
 
+
 .myBox {
-padding: 5px 10px 15px 20px;
-/*border:  purple 10px solid;*/
-margin: 20px;
-background-color:black;
-color:aquamarine;
-/*margin-top: 40px;
+
+	background-color: white;
+	/*margin: 20px;
+	/padding: 5px 10px 15px 20px;
+	border-radius: 20px 3em 5%;
+	width: 30px;*/
+
+
+	color: black;
+
+}
+
+#myFooter {
+	background-color: aliceblue;
+	color: red;
+	height: 100px;
+	text-align: center;
+
+}
+
+.myImg {
+	float: none;
+	margin: 0 px;
+	width:100px;
+}
+
+
+
+/*	background-color: aqua;
+
+}
+margin-top: 40px;
 margin-left: 1px;
 margin-bottom: 10px;
  margin-right:50px;
@@ -42,5 +211,12 @@ margin-bottom: 10px;
 	border-width: 1px;
 	border-style: solid;
 	border-color:aquamarine;
-	*/
+	
+}
+
+
+
+
+.myWorld:first-child {
+	background-color:yellow;
 }
